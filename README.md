@@ -1,2 +1,2 @@
 # aradhya-portfolio
-"My personal portfolio website showcasing projects and skills"
+Personal portfolio website showcasing my projects, skills, and journey as a full-stack developer.
