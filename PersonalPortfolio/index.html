@@ -3,185 +3,540 @@
 
 <head>
 
-    <!-- Basic -->
+    <!--==================== META ====================-->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Aradhya Uttam | Java Developer</title>
+    <title>Aradhya Uttam | Java Backend Developer</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description"
+        content="Official Portfolio of Aradhya Uttam | Java Backend Developer | Spring Boot | DSA">
 
-    <!-- Google Font -->
+    <meta name="keywords"
+        content="Aradhya Uttam, Java Developer, Spring Boot, Portfolio, Backend Developer">
+
+    <!--==================== FONTS ====================-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome -->
+    <!--==================== ICONS ====================-->
+
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!--==================== AOS ====================-->
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!--==================== CSS ====================-->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
+    
+<div class="network-background" id="networkBackground"></div>
+   
 
-    <!--================ HEADER ================-->
+    <!--==================== HEADER ====================-->
 
-    <header>
+    <header class="header">
 
-        <nav class="navbar container">
+        <div class="container">
 
-            <a href="#" class="logo">
-                Aradhya<span>.</span>
-            </a>
+            <nav class="navbar">
 
-            <ul class="nav-menu">
+                <a href="#" class="logo">
 
-                <li><a href="#home">Home</a></li>
+                    Aradhya<span>.</span>
 
-                <li><a href="#about">About</a></li>
+                </a>
 
-                <li><a href="#skills">Skills</a></li>
+                <ul class="nav-menu">
 
-                <li><a href="#projects">Projects</a></li>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
 
-                <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
 
-            </ul>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
 
-            <div class="theme-btn">
-                <i class="fa-solid fa-moon"></i>
-            </div>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
 
-        </nav>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+
+                </ul>
+
+                <div class="menu-toggle">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+
+            </nav>
+
+        </div>
 
     </header>
 
-    <!--================ HERO SECTION ================-->
+    <!--==================== HERO ====================-->
 
-    <section class="hero" id="home">
+<section class="hero" id="home">
 
-        <div class="hero-container container">
+    <div class="container hero-container">
 
-            <!-- LEFT -->
+        <!--==================== LEFT CONTENT ====================-->
 
-            <div class="hero-text">
+        <div class="hero-content" data-aos="fade-right">
 
-                <p class="hello">
-                    👋 Hello, I'm
+            <span class="hero-subtitle">
+                JAVA • SPRING BOOT • DSA
+            </span>
+
+            <h1>
+                Hi, I'm
+                <span>Aradhya Uttam</span>
+            </h1>
+
+            <h2>
+                <span class="typing"></span>
+            </h2>
+
+            <p>
+                Passionate Computer Science student focused on Java backend
+                development, Spring Boot, REST APIs and scalable software
+                solutions. I enjoy building real-world applications with
+                clean architecture and efficient code.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View Projects
+                </a>
+
+                <a href="assets/resume.pdf"
+                   download
+                   class="btn secondary-btn">
+                    Download Resume
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/5Aradhya"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aradhya-uttam/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:aradhyauttam15@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://leetcode.com/u/G4Z8d6ymp2/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!--==================== RIGHT DEVELOPER CARD ====================-->
+
+        <div class="hero-developer-card" data-aos="fade-left">
+
+            <div class="developer-window">
+
+                <!-- WINDOW HEADER -->
+
+                <div class="developer-header">
+
+                    <div class="window-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <span class="developer-title">
+                        Aradhya.java
+                    </span>
+
+                    <span class="developer-status">
+                        <i class="fa-solid fa-circle"></i>
+                        Available
+                    </span>
+
+                </div>
+
+
+                <!-- CODE AREA -->
+
+                <div class="developer-code">
+
+                    <div>
+                        <span class="code-number">01</span>
+                        <span class="code-keyword">public class</span>
+                        <span class="code-class">Aradhya</span>
+                        <span>{</span>
+                    </div>
+
+                    <div>
+                        <span class="code-number">02</span>
+                        &nbsp;&nbsp;
+                        <span class="code-keyword">private</span>
+                        <span class="code-type">String</span>
+                        name =
+                        <span class="code-string">"Aradhya Uttam"</span>;
+                    </div>
+
+                    <div>
+                        <span class="code-number">03</span>
+                        &nbsp;&nbsp;
+                        <span class="code-keyword">private</span>
+                        <span class="code-type">String</span>
+                        role =
+                        <span class="code-string">
+                            "Java Backend Developer"
+                        </span>;
+                    </div>
+
+                    <div>
+                        <span class="code-number">04</span>
+                        &nbsp;&nbsp;
+                        <span class="code-keyword">private</span>
+                        <span class="code-type">String</span>
+                        stack =
+                        <span class="code-string">
+                            "Java + Spring Boot"
+                        </span>;
+                    </div>
+
+                    <div>
+                        <span class="code-number">05</span>
+                        &nbsp;&nbsp;
+                        <span class="code-keyword">private</span>
+                        <span class="code-type">boolean</span>
+                        problemSolver =
+                        <span class="code-value">true</span>;
+                    </div>
+
+                    <div>
+                        <span class="code-number">06</span>
+                        &nbsp;&nbsp;
+                        <span class="code-keyword">public</span>
+                        <span class="code-type">void</span>
+                        <span class="code-method">
+                            buildSolutions
+                        </span>() {
+                    </div>
+
+                    <div>
+                        <span class="code-number">07</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="code-comment">
+                            // Turning ideas into scalable software
+                        </span>
+                    </div>
+
+                    <div>
+                        <span class="code-number">08</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="code-method">
+                            learn
+                        </span>();
+                    </div>
+
+                    <div>
+                        <span class="code-number">09</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="code-method">
+                            code
+                        </span>();
+                    </div>
+
+                    <div>
+                        <span class="code-number">10</span>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="code-method">
+                            solve
+                        </span>();
+                    </div>
+
+                    <div>
+                        <span class="code-number">11</span>
+                        &nbsp;&nbsp;}
+                    </div>
+
+                    <div>
+                        <span class="code-number">12</span>
+                        <span>}</span>
+                    </div>
+
+                </div>
+
+
+                <!-- TECHNOLOGY TAGS -->
+
+                <div class="developer-tech">
+
+                    <span>
+                        <i class="fa-brands fa-java"></i>
+                        Java
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-leaf"></i>
+                        Spring Boot
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-database"></i>
+                        MySQL
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-code"></i>
+                        REST API
+                    </span>
+
+                    <span>
+                        <i class="fa-solid fa-brain"></i>
+                        DSA
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!--==================== SCROLL DOWN ====================-->
+
+    <a href="#about" class="scroll-down">
+        <i class="fa-solid fa-angles-down"></i>
+    </a>
+
+</section>
+<!--==================== ABOUT ====================-->
+
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <!-- Section Heading -->
+        <div class="section-title" data-aos="fade-up">
+
+            <span>ABOUT ME</span>
+
+            <h2>Know More About Me</h2>
+
+            <p>
+                A passionate Computer Science student focused on backend
+                development, problem solving, and building scalable software.
+            </p>
+
+        </div>
+
+
+        <!-- About Main Content -->
+        <div class="about-container">
+
+            <!--==================== LEFT SIDE ====================-->
+
+            <div class="about-content" data-aos="fade-right">
+
+                <span class="about-label">
+                    WHO I AM
+                </span>
+
+                <h3>
+                    Building Software With
+                    <span>Logic & Purpose.</span>
+                </h3>
+
+                <p>
+                    I'm Aradhya Uttam, a Computer Science student passionate
+                    about software development, backend engineering, and
+                    problem solving.
                 </p>
 
-                <h1>
-                    Aradhya Uttam
-                </h1>
-
-                <h2>
-                    Java Developer
-                </h2>
-
-                <p class="description">
-
-                    Passionate Computer Science student focused on Java,
-                    Spring Boot, MySQL and Data Structures & Algorithms.
-
-                    I enjoy building scalable applications and solving
-                    real-world problems.
-
+                <p>
+                    I enjoy working with Java, developing REST APIs, solving
+                    Data Structures & Algorithms problems, and learning
+                    concepts that help me build better software.
                 </p>
 
-                <div class="hero-buttons">
+                <p>
+                    My goal is to become a skilled Software Engineer and
+                    contribute to meaningful products while continuously
+                    improving my technical and problem-solving skills.
+                </p>
 
-                    <a href="assets/resume/resume.pdf" class="btn">
+
+                <!-- Resume Button -->
+                <div class="about-buttons">
+
+                    <a href="assets/resume.pdf"
+                       download
+                       class="btn primary-btn">
+
+                        <i class="fa-solid fa-download"></i>
+
                         Download Resume
-                    </a>
 
-                    <a href="#contact" class="btn-outline">
-                        Contact Me
-                    </a>
-
-                </div>
-
-                <div class="social-links">
-
-                    <a href="#">
-                        <i class="fab fa-github"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-
-                    <a href="#">
-                        <i class="fas fa-code"></i>
                     </a>
 
                 </div>
 
             </div>
 
-            <!-- RIGHT -->
 
-            <div class="hero-image">
+            <!--==================== RIGHT SIDE ====================-->
 
-                <div class="image-box">
+            <div class="about-info" data-aos="fade-left">
 
-                    <img src="assets/images/profile.jpg" alt="Profile">
+
+                <!-- Education -->
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        <i class="fa-solid fa-user-graduate"></i>
+                    </div>
+
+                    <div class="info-card-content">
+
+                        <h4>Education</h4>
+
+                        <p>
+                            B.Tech - Computer Science
+                        </p>
+
+                        <span>
+                            Krishna Institute of Technology
+                        </span>
+
+                    </div>
 
                 </div>
 
-            </div>
 
-        </div>
+                <!-- CGPA -->
+                <div class="info-card">
 
-    </section>
+                    <div class="info-icon">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
 
-    <!-- ================= ABOUT ================= -->
+                    <div class="info-card-content">
 
-<section class="about" id="about">
+                        <h4>Academic Performance</h4>
 
-    <div class="container about-container">
+                        <p>
+                            CGPA: 8.04 / 10
+                        </p>
 
-        <div class="about-image">
+                        <span>
+                            Strong academic foundation in Computer Science
+                        </span>
 
-            <img src="assets/images/profile.jpg" alt="Aradhya">
+                    </div>
 
-        </div>
-
-        <div class="about-content">
-
-            <h5>ABOUT ME</h5>
-
-            <h2>Turning Ideas into Reality with Code</h2>
-
-            <p>
-                I'm Aradhya Uttam, a B.Tech Computer Science student passionate
-                about Java Development, Data Structures & Algorithms, and
-                Backend Development with Spring Boot.
-            </p>
-
-            <p>
-                I enjoy solving real-world problems through code and continuously
-                improving my technical skills by building projects and practicing
-                coding challenges.
-            </p>
-
-            <div class="about-info">
-
-                <div class="info-box">
-                    <h3>Education</h3>
-                    <p>B.Tech (CSE)</p>
                 </div>
 
-                <div class="info-box">
-                    <h3>Experience</h3>
-                    <p>Web Development Intern</p>
+
+                <!-- Specialization -->
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="info-card-content">
+
+                        <h4>Specialization</h4>
+
+                        <p>
+                            Software Development
+                        </p>
+
+                        <span>
+                            Java • Backend Development • Problem Solving
+                        </span>
+
+                    </div>
+
                 </div>
 
-                <div class="info-box">
-                    <h3>Projects</h3>
-                    <p>3+ Completed</p>
+
+                <!-- Location -->
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div class="info-card-content">
+
+                        <h4>Location</h4>
+
+                        <p>
+                            Kanpur, Uttar Pradesh
+                        </p>
+
+                        <span>
+                            India
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Availability -->
+                <div class="info-card">
+
+                    <div class="info-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <div class="info-card-content">
+
+                        <h4>Currently</h4>
+
+                        <p>
+                            Open to Opportunities
+                        </p>
+
+                        <span>
+                            Interested in internships and software development roles
+                        </span>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -191,119 +546,236 @@
     </div>
 
 </section>
-
+<!--==================== SKILLS ====================-->
 <!--==================== SKILLS ====================-->
 
-<section class="skills" id="skills">
+<section class="skills section" id="skills">
+
+     <div class="network-background"></div>
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="section-title" data-aos="fade-up">
 
-            <h5>MY SKILLS</h5>
+            <span>MY EXPERTISE</span>
 
-            <h2>Technologies I Work With</h2>
+            <h2>Technical <span>Skills</span></h2>
 
             <p>
-                I enjoy building scalable applications and continuously improving
-                my skills by learning modern technologies.
+                The technologies, tools and frameworks I use to build robust
+                software solutions and strengthen my problem-solving skills.
             </p>
 
         </div>
 
         <div class="skills-grid">
 
-            <!-- Programming -->
+            <!-- Card 1 -->
 
-            <div class="skill-category">
+            <div class="skill-card">
 
-                <h3>Programming</h3>
+                <div class="skill-header">
+
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>Programming Languages</h3>
+
+                        <p>
+                            Building efficient, clean and scalable logic with
+                            strong programming concepts.
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div class="skill-tags">
 
                     <span>Java</span>
-                    <span>C</span>
+                    <span>Python</span>
+                    <span>JavaScript</span>
                     <span>SQL</span>
-                    <span>JavaScript</span>
+                    <span>C++</span>
+                    <span>Kotlin</span>
 
                 </div>
 
             </div>
 
-            <!-- Frontend -->
+            <!-- Card 2 -->
 
-            <div class="skill-category">
+            <div class="skill-card">
 
-                <h3>Frontend</h3>
+                <div class="skill-header">
 
-                <div class="skill-tags">
+                    <div class="skill-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
 
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>JavaScript</span>
+                    <div class="skill-info">
+
+                        <h3>Frameworks & Libraries</h3>
+
+                        <p>
+                            Modern frameworks and libraries for building
+                            powerful backend applications.
+                        </p>
+
+                    </div>
 
                 </div>
 
-            </div>
-
-            <!-- Backend -->
-
-            <div class="skill-category">
-
-                <h3>Backend</h3>
-
                 <div class="skill-tags">
 
-                    <span>Java</span>
                     <span>Spring Boot</span>
-                    <span>JDBC</span>
+                    <span>Spring MVC</span>
+                    <span>Hibernate</span>
+                    <span>Android</span>
+                    <span>REST APIs</span>
+                    <span>Dart</span>
 
                 </div>
 
             </div>
 
-            <!-- Database -->
+            <!-- Card 3 -->
 
-            <div class="skill-category">
+            <div class="skill-card">
 
-                <h3>Database</h3>
+                <div class="skill-header">
+
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>Databases</h3>
+
+                        <p>
+                            Working with relational and non-relational
+                            databases for efficient data management.
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div class="skill-tags">
 
                     <span>MySQL</span>
+                    <span>PostgreSQL</span>
+                    <span>MongoDB</span>
 
                 </div>
 
             </div>
 
-            <!-- Tools -->
+            <!-- Card 4 -->
 
-            <div class="skill-category">
+            <div class="skill-card">
 
-                <h3>Tools</h3>
+                <div class="skill-header">
+
+                    <div class="skill-icon">
+                        <i class="fas fa-screwdriver-wrench"></i>
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>Tools & Technologies</h3>
+
+                        <p>
+                            Tools and platforms that improve productivity and
+                            streamline development.
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div class="skill-tags">
 
                     <span>Git</span>
                     <span>GitHub</span>
+                    <span>Docker</span>
+                    <span>Maven</span>
+                    <span>Postman</span>
                     <span>VS Code</span>
-                    <span>IntelliJ IDEA</span>
 
                 </div>
 
             </div>
 
-            <!-- Core CS -->
+            <!-- Card 5 -->
 
-            <div class="skill-category">
+            <div class="skill-card">
 
-                <h3>Core CS</h3>
+                <div class="skill-header">
+
+                    <div class="skill-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>Core Competencies</h3>
+
+                        <p>
+                            Strong foundation in computer science concepts and
+                            software engineering skills.
+                        </p>
+
+                    </div>
+
+                </div>
 
                 <div class="skill-tags">
 
                     <span>DSA</span>
+                    <span>Algorithms</span>
+                    <span>REST APIs</span>
                     <span>OOP</span>
-                    <span>DBMS</span>
+                    <span>System Design</span>
+                    <span>Problem Solving</span>
+
+                </div>
+
+            </div>
+
+            <!-- Card 6 -->
+
+            <div class="skill-card">
+
+                <div class="skill-header">
+
+                    <div class="skill-icon">
+                        <i class="fas fa-circle-plus"></i>
+                    </div>
+
+                    <div class="skill-info">
+
+                        <h3>Additional Skills</h3>
+
+                        <p>
+                            Additional skills that complement my development
+                            and testing process.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="skill-tags">
+
+                    <span>Agile/Scrum</span>
+                    <span>Linux</span>
+                    <span>CI/CD</span>
+                    <span>Testing (JUnit)</span>
 
                 </div>
 
@@ -314,182 +786,298 @@
     </div>
 
 </section>
-<!--==================== PROJECTS ====================-->
+<!--==================== ACHIEVEMENTS ====================-->
 
-<section class="projects" id="projects">
+<section class="achievements section" id="achievements">
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="section-title" data-aos="fade-up">
 
-            <h5>MY PROJECTS</h5>
+            <span>MY ACHIEVEMENTS</span>
 
-            <h2>Featured Projects</h2>
+            <h2>Achievements & 
+                <span>Certifications</span>
+            </h2>
 
             <p>
-                Here are some of the projects I have built to strengthen my
-                development skills and solve real-world problems.
+                A collection of certifications, recognitions and coding
+                achievements from my learning and development journey.
             </p>
 
         </div>
 
-        <div class="project-grid">
 
-            <!-- Project 1 -->
+        <div class="achievement-container">
 
-            <div class="project-card">
 
-                <img src="assets/images/hospital.png" alt="Hospital Management System">
+            <!-- Achievement 1 -->
+            <div class="achievement-card" data-aos="fade-up">
 
-                <div class="project-content">
+                <i class="fa-solid fa-graduation-cap"></i>
 
-                    <h3>Hospital Management System</h3>
+                <h3>Pragati: Path to Future – Cohort 9</h3>
 
-                    <p>
-                        Desktop application built using Java, Swing, JDBC and
-                        MySQL for managing patients, appointments and billing.
-                    </p>
-
-                    <div class="project-tech">
-
-                        <span>Java</span>
-                        <span>Swing</span>
-                        <span>JDBC</span>
-                        <span>MySQL</span>
-
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a href="#" class="project-btn">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-
-                        <a href="#" class="project-btn live">
-                            Live Demo
-                        </a>
-
-                    </div>
-
-                </div>
+                <p>
+                    Selected to be part of Pragati: Path to Future – Cohort 9
+                    by Infosys Springboard.
+                </p>
 
             </div>
 
-            <!-- Project 2 -->
 
-            <div class="project-card">
+            <!-- Achievement 2 -->
+            <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
 
-                <img src="assets/images/quiz.png" alt="Quiz Application">
+                <i class="fa-solid fa-cloud"></i>
 
-                <div class="project-content">
+                <h3>Cloud Technologies</h3>
 
-                    <h3>Quiz Application</h3>
+                <p>
+                    Successfully completed the Cloud Technologies course
+                    and received a certificate from Infosys.
+                </p>
 
-                    <p>
-                        Java Swing application with timer, score calculation,
-                        MCQs and result analysis.
-                    </p>
-
-                    <div class="project-tech">
-
-                        <span>Java</span>
-                        <span>Swing</span>
-                        <span>MySQL</span>
-
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a href="#" class="project-btn">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-
-                        <a href="#" class="project-btn live">
-                            Live Demo
-                        </a>
-
-                    </div>
-
-                </div>
+                <span class="achievement-date">
+                    Completed: June 26, 2026
+                </span>
 
             </div>
 
-            <!-- Project 3 -->
 
-            <div class="project-card">
+            <!-- Achievement 3 -->
+            <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
 
-                <img src="assets/images/expense.png" alt="Expense Tracker">
+                <i class="fa-solid fa-shield-halved"></i>
 
-                <div class="project-content">
+                <h3>TCS iON Certificate</h3>
 
-                    <h3>Expense Tracker</h3>
+                <p>
+                    Certificate of participation/achievement associated with
+                    TCS iON and Tata Consultancy Services.
+                </p>
 
-                    <p>
-                        Responsive web application with CRUD operations,
-                        filters, charts and local storage.
-                    </p>
-
-                    <div class="project-tech">
-
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-
-                    </div>
-
-                    <div class="project-buttons">
-
-                        <a href="#" class="project-btn">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-
-                        <a href="#" class="project-btn live">
-                            Live Demo
-                        </a>
-
-                    </div>
-
-                </div>
+                <span class="achievement-date">
+                    June 22, 2026
+                </span>
 
             </div>
+
+
+            <!-- Achievement 4 -->
+            <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+
+                <i class="fa-solid fa-award"></i>
+
+                <h3>CampusCrew: 100K Special Certificate</h3>
+
+                <p>
+                    Recognized as an integral part of the CampusCrew journey
+                    and contribution to a community that reached 100,000+
+                    students worldwide.
+                </p>
+
+            </div>
+
+
+            <!-- Achievement 5 -->
+            <div class="achievement-card" data-aos="fade-up" data-aos-delay="400">
+
+                <i class="fa-solid fa-certificate"></i>
+
+                <h3>Samsung Galaxy AI Treasure Hunt 2026</h3>
+
+                <p>
+                    Certificate of Participation for participating in the
+                    Samsung Galaxy AI Treasure Hunt 2026 organized by
+                    Student+ / Unstop.
+                </p>
+
+            </div>
+
+
+            <!-- Coding Achievement 1 -->
+            <div class="achievement-card coding-achievement"
+                 data-aos="fade-up"
+                 data-aos-delay="500">
+
+                <i class="fa-solid fa-code"></i>
+
+                <h3>157+ LeetCode Problems</h3>
+
+                <p>
+                    Solved 157+ coding problems on LeetCode,
+                    strengthening problem-solving and Data Structures
+                    & Algorithms skills.
+                </p>
+
+            </div>
+
+
+            <!-- Coding Achievement 2 -->
+            <div class="achievement-card coding-achievement"
+                 data-aos="fade-up"
+                 data-aos-delay="600">
+
+                <i class="fa-solid fa-medal"></i>
+
+                <h3>LeetCode 75 Badge</h3>
+
+                <p>
+                    Earned the LeetCode 75 badge by completing
+                    problems from the LeetCode 75 study plan.
+                </p>
+
+            </div>
+
 
         </div>
 
     </div>
 
 </section>
+
+   
+
 <!--==================== EXPERIENCE ====================-->
 
-<section class="experience" id="experience">
+<section class="experience section" id="experience">
 
     <div class="container">
 
-        <div class="section-heading">
+        <div class="section-title" data-aos="fade-up">
 
-            <h5>EXPERIENCE</h5>
+            <span>PROFESSIONAL EXPERIENCE</span>
 
-            <h2>Internship Experience</h2>
+            <h2>Internship & Learning Journey</h2>
+
+            <p>
+                Practical experience gained through internships, hands-on projects,
+                and continuous learning.
+            </p>
 
         </div>
 
-        <div class="timeline">
+        <div class="experience-grid">
 
-            <div class="timeline-item">
+            <!-- Internship -->
 
-                <div class="timeline-dot"></div>
+            <div class="experience-card" data-aos="fade-up">
 
-                <div class="timeline-content">
+                <div class="experience-icon">
 
-                    <h3>Web Development Intern</h3>
+                    <i class="fa-solid fa-briefcase"></i>
 
-                    <h4>ApexPlanet Software Pvt. Ltd.</h4>
+                </div>
 
-                    <span>2026</span>
+                <div class="experience-details">
+
+                    <span class="experience-date">
+
+                        June 2026 – July 2026
+
+                    </span>
+
+                    <h3>
+
+                        Web Development Intern
+
+                    </h3>
+
+                    <h4>
+
+                        ApexPlanet Software Pvt. Ltd.
+
+                    </h4>
 
                     <p>
-                        Built responsive web applications using HTML, CSS and
-                        JavaScript. Implemented CRUD operations, responsive UI,
-                        animations and local storage.
+
+                        Successfully completed a Web Development Internship where I
+                        designed responsive websites and built interactive web
+                        applications using HTML, CSS and JavaScript.
+
+                    </p>
+
+                    <ul>
+
+                        <li>Developed responsive multi-page websites.</li>
+
+                        <li>Built an Expense Tracker with CRUD functionality.</li>
+
+                        <li>Implemented Local Storage for data persistence.</li>
+
+                        <li>Optimized performance and accessibility.</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- Cognifyz Internship -->
+<div class="experience-card" data-aos="fade-up">
+
+    <div class="experience-icon">
+        <i class="fa-solid fa-briefcase"></i>
+    </div>
+
+    <div class="experience-content">
+
+        <span class="experience-date">
+            June 2026
+        </span>
+
+        <h3>Software Development Intern</h3>
+
+        <h4>Cognifyz IT Solutions Pvt. Ltd.</h4>
+
+        <p>
+            Selected for the position of Software Development Intern at
+            Cognifyz IT Solutions Pvt. Ltd. Worked on software development
+            related projects and tasks, applying programming skills and
+            software development knowledge.
+        </p>
+
+    </div>
+
+</div>
+
+            <!-- Learning -->
+
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="150">
+
+                <div class="experience-icon">
+
+                    <i class="fa-solid fa-code"></i>
+
+                </div>
+
+                <div class="experience-details">
+
+                    <span class="experience-date">
+
+                        2025 – Present
+
+                    </span>
+
+                    <h3>
+
+                        Java & DSA Learning Journey
+
+                    </h3>
+
+                    <h4>
+
+                        Self Learning
+
+                    </h4>
+
+                    <p>
+
+                        Continuously improving Java programming, Object-Oriented
+                        Programming, Database concepts, Data Structures &
+                        Algorithms and backend development by building projects
+                        and solving coding problems.
+
                     </p>
 
                 </div>
@@ -501,157 +1089,341 @@
     </div>
 
 </section>
-
-<!--==================== CERTIFICATES ====================-->
-
-<section class="certificates" id="certificates">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h5>CERTIFICATIONS</h5>
-
-            <h2>My Certifications</h2>
-
-        </div>
-
-        <div class="certificate-grid">
-
-            <div class="certificate-card">
-                <i class="fa-solid fa-award"></i>
-                <h3>Oracle Database</h3>
-                <p>Database For Developers</p>
-            </div>
-
-            <div class="certificate-card">
-                <i class="fa-solid fa-award"></i>
-                <h3>Accenture</h3>
-                <p>Data Analytics Job Simulation</p>
-            </div>
-
-            <div class="certificate-card">
-                <i class="fa-solid fa-award"></i>
-                <h3>Advanced Java</h3>
-                <p>RCPL Certification</p>
-            </div>
-
-            <div class="certificate-card">
-                <i class="fa-solid fa-award"></i>
-                <h3>ApexPlanet</h3>
-                <p>Web Development Internship</p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!--==================== CODING PROFILES ====================-->
-
-<section class="profiles" id="profiles">
-
-    <div class="container">
-
-        <div class="section-heading">
-
-            <h5>CODING PROFILES</h5>
-
-            <h2>Let's Connect</h2>
-
-        </div>
-
-        <div class="profile-grid">
-
-            <a href="#" class="profile-card">
-
-                <i class="fab fa-github"></i>
-
-                <h3>GitHub</h3>
-
-                <p>View My Projects</p>
-
-            </a>
-
-            <a href="#" class="profile-card">
-
-                <i class="fab fa-linkedin"></i>
-
-                <h3>LinkedIn</h3>
-
-                <p>Professional Profile</p>
-
-            </a>
-
-            <a href="#" class="profile-card">
-
-                <i class="fas fa-code"></i>
-
-                <h3>LeetCode</h3>
-
-                <p>Problem Solving</p>
-
-            </a>
-
-            <a href="#" class="profile-card">
-
-                <i class="fab fa-hackerrank"></i>
-
-                <h3>HackerRank</h3>
-
-                <p>Coding Practice</p>
-
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
+  
 
 <!--==================== CONTACT ====================-->
+<!--==================== CONTACT ====================-->
 
-<section class="contact" id="contact">
+<section class="contact section" id="contact">
 
     <div class="container">
 
-        <div class="section-heading">
+        <!--==================== CONTACT HEADER ====================-->
 
-            <h5>CONTACT</h5>
+        <div class="contact-header" data-aos="fade-up">
 
-            <h2>Get In Touch</h2>
+            <span class="contact-badge">
+                Get In Touch
+            </span>
+
+            <h2 class="contact-title">
+                Let's <span>Connect</span>
+            </h2>
+
+            <div class="contact-title-line"></div>
+
+            <p class="contact-description">
+                Whether you have an opportunity, project idea,
+                or just want to connect, I'd love to hear from you.
+            </p>
 
         </div>
 
-        <div class="contact-grid">
 
-            <div class="contact-card">
+        <!--==================== CONTACT WRAPPER ====================-->
 
-                <i class="fas fa-envelope"></i>
+        <div class="contact-wrapper">
 
-                <h3>Email</h3>
 
-                <p>your@email.com</p>
+            <!--==================== CONTACT INFORMATION ====================-->
+
+            <div class="contact-info-card" data-aos="fade-right">
+
+                <!-- Card Header -->
+
+                <div class="contact-card-header">
+
+                    <div class="contact-card-icon">
+                        <i class="fa-regular fa-user"></i>
+                    </div>
+
+                    <h3>
+                        Contact Information
+                    </h3>
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="contact-info-item">
+
+                    <div class="contact-info-icon">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+
+                        <h4>Email</h4>
+
+                        <p>
+                            aradhyauttam15@gmail.com
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Location -->
+
+                <div class="contact-info-item">
+
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+
+                        <h4>Location</h4>
+
+                        <p>
+                            Kanpur, Uttar Pradesh, India
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Available For -->
+
+                <div class="contact-info-item">
+
+                    <div class="contact-info-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+
+                        <h4>Available For</h4>
+
+                        <p>
+                            Software Development Internship
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Response Time -->
+
+                <div class="contact-info-item">
+
+                    <div class="contact-info-icon">
+                        <i class="fa-regular fa-clock"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+
+                        <h4>Response Time</h4>
+
+                        <p>
+                            Usually within 24 Hours
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Divider -->
+
+                <div class="contact-divider"></div>
+
+
+                <!-- Social Media -->
+
+                <h3 class="social-title">
+                    Connect With Me
+                </h3>
+
+                <div class="contact-social">
+
+                    <a href="www.linkedin.com/in/aradhya-uttam" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="https://github.com/5Aradhya" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    <a href="aradhyauttam15@gmail.com" aria-label="Email">
+                        <i class="fa-regular fa-envelope"></i>
+                    </a>
+
+                </div>
 
             </div>
 
-            <div class="contact-card">
 
-                <i class="fas fa-phone"></i>
 
-                <h3>Phone</h3>
+            <!--==================== CONTACT FORM ====================-->
 
-                <p>+91 XXXXX XXXXX</p>
+            <div class="contact-form-card" data-aos="fade-left">
+
+                <!-- Form Header -->
+
+                <div class="contact-card-header">
+
+                    <div class="contact-card-icon">
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+
+                    <h3>
+                        Send Me a Message
+                    </h3>
+
+                </div>
+
+
+                <!-- Form -->
+
+                <form class="contact-form">
+
+
+                    <!-- Name + Email -->
+
+                    <div class="contact-input-row">
+
+                        <!-- Name -->
+
+                        <div class="contact-input-box">
+
+                            <i class="fa-regular fa-user"></i>
+
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Your Name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- Email -->
+
+                        <div class="contact-input-box">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your Email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Subject -->
+
+                    <div class="contact-input-box">
+
+                        <i class="fa-regular fa-bookmark"></i>
+
+                        <input
+                            type="text"
+                            name="subject"
+                            placeholder="Subject"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- Message -->
+
+                    <div class="contact-input-box contact-textarea-box">
+
+                        <i class="fa-regular fa-pen-to-square"></i>
+
+                        <textarea
+                            name="message"
+                            rows="7"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <!-- Submit Button -->
+
+                    <button
+                        type="submit"
+                        class="contact-submit-btn"
+                    >
+
+                        <i class="fa-regular fa-paper-plane"></i>
+
+                        <span>
+                            Send Message
+                        </span>
+
+                    </button>
+
+                </form>
 
             </div>
 
-            <div class="contact-card">
+        </div>
 
-                <i class="fas fa-location-dot"></i>
 
-                <h3>Location</h3>
 
-                <p>Kanpur, Uttar Pradesh</p>
+        <!--==================== CONTACT BOTTOM BAR ====================-->
+
+        <div class="contact-bottom-bar">
+
+
+            <!-- Left -->
+
+            <div class="contact-bottom-left">
+
+                <div class="contact-bottom-icon">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                </div>
+
+                <span>
+                    Let's build something amazing together!
+                </span>
+
+            </div>
+
+
+            <!-- Divider -->
+
+            <div class="contact-bottom-divider"></div>
+
+
+            <!-- Right -->
+
+            <div class="contact-bottom-right">
+
+                <span>
+                    I am currently
+                </span>
+
+                <strong>
+                    available
+                </strong>
+
+                <span>
+                    for new opportunities.
+                </span>
+
+                <span class="contact-status-dot"></span>
 
             </div>
 
@@ -660,22 +1432,25 @@
     </div>
 
 </section>
+    <!--==================== FOOTER ====================-->
 
-<!--==================== FOOTER ====================-->
+    <footer class="footer">
 
-<footer>
-
-    <div class="container footer">
+    <div class="container">
 
         <h2>Aradhya Uttam</h2>
 
-        <p>Java Developer | CSE Student</p>
+        <p>
+            Java Backend Developer • Spring Boot Enthusiast • Problem Solver
+        </p>
 
-        <div class="footer-icons">
+        <div class="footer-social">
 
             <a href="#"><i class="fab fa-github"></i></a>
 
             <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            <a href="#"><i class="fas fa-envelope"></i></a>
 
             <a href="#"><i class="fas fa-code"></i></a>
 
@@ -691,13 +1466,16 @@
 
 </footer>
 
-    <!-- JS -->
+    <!--==================== JS LIBRARIES ====================-->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+
     <script src="js/script.js"></script>
 
-
-    <button id="topBtn">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
 </body>
 
 </html>
