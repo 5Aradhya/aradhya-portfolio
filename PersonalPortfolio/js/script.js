@@ -92,7 +92,6 @@ AOS.init({
         NETWORK NODES BACKGROUND
 ==========================================*/
 
-const networkBackground = document.querySelector(".network-background");
 
 if (networkBackground) {
 
